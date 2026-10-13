@@ -3,10 +3,21 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
+
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-INSTANCE_DIR=os.path.join(BASE_DIR,'instance') 
-os.makedirs(INSTANCE_DIR,exist_ok=True)
-DEFAULT_DATABASE_PATH = os.path.join(INSTANCE_DIR, 'problem_alter.db').replace('\\', '/')
+
+if os.environ.get("RENDER"):
+    INSTANCE_DIR = "/var/data"
+else:
+    INSTANCE_DIR = os.path.join(BASE_DIR, "instance")
+
+os.makedirs(INSTANCE_DIR, exist_ok=True)
+
+DEFAULT_DATABASE_PATH = os.path.join(
+    INSTANCE_DIR, "problem_alert.db"
+).replace("\\", "/")
+
+
 
 class Config:
     ENVIRONMENT = os.environ.get('FLASK_ENV', 'development').lower()
@@ -14,7 +25,10 @@ class Config:
     # Prefer DATABASE_URI from environment (e.g., mysql+pymysql://user:pass@host/db).
     # The local fallback is the one persistent application database, rather
     # than a second empty file alongside the backend source.
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI') or f"sqlite:///{DEFAULT_DATABASE_PATH}"
+ SQLALCHEMY_DATABASE_URI = (
+    os.environ.get("DATABASE_URI")
+    or f"sqlite:///{DEFAULT_DATABASE_PATH}"
+)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY', SECRET_KEY)
     JWT_ACCESS_TOKEN_EXPIRES = 86400  # 1 day
