@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-DEFAULT_DATABASE_PATH = os.path.join(BASE_DIR, 'instance', 'problem_alert.db').replace('\\', '/')
+INSTANCE_DIR=os.path.join(BASE_DIR,'instance') 
+os.makedirs(INSTANCE_DIR,exist_ok=True)
+DEFAULT_DATABASE_PATH = os.path.join(INSTANCE_DIR, 'problem_alter.db').replace('\\', '/')
 
 class Config:
     ENVIRONMENT = os.environ.get('FLASK_ENV', 'development').lower()
