@@ -1,0 +1,74 @@
+[
+  {
+    "service": "National Emergency Helpline",
+    "number": "112",
+    "category": "Police, Fire, Medical",
+    "description": "Pan-India emergency helpline for police, fire and medical response"
+  },
+  {
+    "service": "Police",
+    "number": "100",
+    "category": "Police",
+    "description": "Police emergency response across India"
+  },
+  {
+    "service": "Fire",
+    "number": "101",
+    "category": "Fire",
+    "description": "Fire and rescue services"
+  },
+  {
+    "service": "Ambulance",
+    "number": "108",
+    "category": "Medical",
+    "description": "Emergency medical services"
+  },
+  {
+    "service": "Women Helpline",
+    "number": "181",
+    "category": "Women Safety",
+    "description": "Women safety and harassment emergency support"
+  },
+  {
+    "service": "Child Helpline",
+    "number": "1098",
+    "category": "Child Protection",
+    "description": "Emergency child protection and welfare support"
+  },
+  {
+    "service": "Disaster Management (State/Local)",
+    "number": "Varies by state",
+    "category": "Disaster",
+    "description": "Local and state disaster management offices (contact your municipal authority or state control room)"
+  },
+  {
+    "service": "Road Accident Helpline",
+    "number": "1033",
+    "category": "Road Safety",
+    "description": "Road accident emergency support"
+  },
+  {
+    "service": "Railway Enquiry",
+    "number": "139",
+    "category": "Transport",
+    "description": "Indian Railways assistance and emergency information"
+  },
+  {
+    "service": "Local Municipal Corporation",
+    "number": "Varies by city",
+    "category": "Municipal Services",
+    "description": "Report local civic issues (garbage collection, drainage, street lights) to your city municipal corporation"
+  },
+  {
+    "service": "Electricity (Local Utility)",
+    "number": "Varies by supplier",
+    "category": "Electricity",
+    "description": "Contact your local electricity distribution company for live wires, sparking or power failures"
+  },
+  {
+    "service": "Gas Leak (Local Supplier)",
+    "number": "Varies by supplier",
+    "category": "Gas Leak",
+    "description": "Contact your piped or LPG supplier immediately in case of suspected gas leak"
+  }
+]

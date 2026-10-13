@@ -1,0 +1,25 @@
+# Example dataset_list.yml for backend/scripts/download_kaggle_datasets.py
+# Replace the 'slug' entries with the Kaggle dataset slugs you want to download.
+# Format:
+# - slug: username/dataset-name
+#   type: image|text|priority
+#   notes: optional notes for manual mapping
+
+- slug: zynicide/wildfire-dataset
+  type: image
+  notes: Example image dataset (replace with local-issue images)
+
+- slug: crowdsourcing/complaint-dataset-example
+  type: text
+  notes: Example complaint text dataset (replace with a real slug)
+
+- slug: someuser/complaint-priority-labels
+  type: priority
+  notes: Priority/severity labels for complaints
+
+# After editing, copy to backend/datasets/dataset_list.yml and run:
+#   (PowerShell)
+#   $env:KAGGLE_USERNAME = 'your-username'
+#   $env:KAGGLE_KEY = 'your-key'
+#   cd backend
+#   python .\scripts\download_kaggle_datasets.py

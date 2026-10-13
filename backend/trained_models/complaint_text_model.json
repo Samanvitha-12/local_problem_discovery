@@ -1,0 +1,30 @@
+{
+  "sample_count": 306,
+  "categories": [
+    "Animal Issue",
+    "Drainage",
+    "Electricity",
+    "Fire",
+    "Flood",
+    "Garbage",
+    "Illegal Dumping",
+    "Medical Emergency",
+    "Public Property Damage",
+    "Road Damage",
+    "Street Light",
+    "Traffic Signal",
+    "Tree Fallen",
+    "Water Leakage"
+  ],
+  "priorities": [
+    "Critical",
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "category_accuracy": 0.96,
+  "priority_accuracy": 0.96,
+  "precision": 0.932,
+  "recall": 0.946,
+  "f1": 0.938
+}

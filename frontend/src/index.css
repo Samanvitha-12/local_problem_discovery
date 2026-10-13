@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  color-scheme: dark;
+  background: radial-gradient(circle at top left, rgba(36, 72, 173, 0.7), transparent 28%), radial-gradient(circle at bottom right, rgba(0, 212, 255, 0.4), transparent 35%), #060a1b;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #e2e8f0;
+  background: linear-gradient(180deg, #040618 0%, #111827 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.MuiPaper-root {
+  backdrop-filter: blur(18px);
+}
+
+/* Fallback/supportive CSS: when Tailwind utilities are not available or to ensure consistent visuals,
+   target commonly used utility-like class name fragments and apply sensible defaults. This helps
+   the dashboard render correctly even if Tailwind isn't processed in some environments. */
+
+html { font-size: 16px; }
+body { font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+
+/* Generic card rounding used across the dashboard */
+[class*="rounded-3xl"], [class*="rounded-[28px]"], .card, .panel {
+  border-radius: 28px !important;
+}
+
+/* Backdrop blur utility fallback */
+[class*="backdrop-blur"] {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+/* Card base look */
+[class*="border-slate-700"] {
+  border: 1px solid rgba(71,85,105,0.35) !important;
+}
+[class*="bg-slate-900"] {
+  background: rgba(17,24,39,0.75) !important;
+}
+[class*="bg-slate-800"] {
+  background: rgba(30,41,59,0.65) !important;
+}
+
+/* Sidebar fallback styling */
+aside, .sidebar {
+  background: linear-gradient(180deg, rgba(8,10,15,0.95), rgba(10,14,20,0.9));
+  color: #e6eef8;
+}
+
+aside .nav-button, button[class*="flex w-full items-center"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 12px;
+  width: 100%;
+  background: transparent;
+  color: #cbd5e1;
+  border: none;
+  text-align: left;
+}
+
+/* Ensure main content spacing */
+main, .main-content {
+  padding: 1rem 1.5rem;
+}
+
+/* Buttons fallback to look presentable */
+button, .btn, .MuiButton-root {
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+/* Make sure images and iframes are responsive */
+img, iframe { max-width: 100%; height: auto; }
+
+/* Small layout fixes for very narrow or zoomed windows */
+@media (max-width: 900px) {
+  aside { width: 100% !important; }
+  .flex-1 { padding: 0.5rem !important; }
+}

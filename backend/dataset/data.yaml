@@ -1,0 +1,15 @@
+path: dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Road Damage
+  1: Garbage Overflow
+  2: Water Leakage
+  3: Drainage Blockage
+  4: Broken Street Light
+  5: Fallen Tree
+  6: Electric Pole Damage
+  7: Illegal Dumping

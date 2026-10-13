@@ -1,0 +1,11 @@
+path: C:\7thMajor\backend\datasets\civic_yolo\experiments\six_class
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Road Damage
+  1: Garbage Overflow
+  2: Water Leakage
+  3: Drainage Blockage
+  4: Broken Street Light
+  5: Electric Pole Damage

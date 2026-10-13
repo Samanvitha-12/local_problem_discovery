@@ -1,0 +1,66 @@
+[
+  {
+    "service": "Emergency Response (Police, Fire, Ambulance, Rescue)",
+    "number": "112",
+    "category": "All emergencies",
+    "categories": ["Road Damage", "Garbage", "Street Light", "Water Leakage", "Drainage", "Electricity", "Tree Fallen", "Illegal Dumping", "Flood", "Fire", "Traffic Signal", "Public Property Damage", "Animal Issue", "Medical Emergency"],
+    "description": "Pan-India emergency number. Call or send an SMS for immediate danger, flood rescue, electrical hazards, road incidents, fire, police, or medical help.",
+    "channels": ["call", "sms"],
+    "source": "https://112.gov.in/"
+  },
+  {
+    "service": "Disaster Management Control Room",
+    "number": "1070",
+    "category": "Floods and natural disasters",
+    "categories": ["Flood"],
+    "description": "Relief Commissioner disaster helpline listed by the Government of India. For immediate rescue, call 112.",
+    "channels": ["call"],
+    "source": "https://www.india.gov.in/directory/helpline"
+  },
+  {
+    "service": "Road Accident Helpline",
+    "number": "1073",
+    "category": "Road safety",
+    "categories": ["Road Damage", "Traffic Signal"],
+    "description": "Government of India road accident helpline. Call 112 as well when someone needs urgent police, ambulance, or rescue assistance.",
+    "channels": ["call"],
+    "source": "https://www.india.gov.in/directory/helpline"
+  },
+  {
+    "service": "National Ambulance Service",
+    "number": "102",
+    "category": "Medical emergency",
+    "categories": ["Medical Emergency"],
+    "description": "National ambulance helpline listed by the Government of India. Use 112 for an integrated emergency response.",
+    "channels": ["call"],
+    "source": "https://www.india.gov.in/directory/helpline"
+  },
+  {
+    "service": "Municipal Corporation / Civic Control Room",
+    "number": "Local number varies",
+    "category": "Road damage, drainage, flooding, garbage, street lights",
+    "description": "Contact your city or district municipal control room for non-life-threatening civic repairs. Call 112 if there is immediate danger or a rescue is needed."
+  },
+  {
+    "service": "Electricity Distribution Company",
+    "number": "Local number varies",
+    "category": "Power outage and electrical hazards",
+    "description": "Use your electricity bill or state distribution company website for the local fault number. Keep away from fallen wires and call 112 for immediate danger."
+  },
+  {
+    "service": "Police (legacy direct number)",
+    "number": "100",
+    "category": "Police",
+    "description": "Legacy police emergency number. The Government of India ERSS provides the unified emergency number 112.",
+    "channels": ["call"],
+    "source": "https://112.gov.in/about"
+  },
+  {
+    "service": "Fire and Rescue (legacy direct number)",
+    "number": "101",
+    "category": "Fire and rescue",
+    "description": "Legacy fire and rescue number. The Government of India ERSS provides the unified emergency number 112.",
+    "channels": ["call"],
+    "source": "https://112.gov.in/about"
+  }
+]

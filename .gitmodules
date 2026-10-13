@@ -1,0 +1,3 @@
+[submodule "backend/datasets/processed/images/road_damage"]
+	path = backend/datasets/processed/images/road_damage
+	url = https://github.com/sekilab/RoadDamageDetector.git

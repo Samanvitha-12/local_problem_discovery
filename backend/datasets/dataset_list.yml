@@ -1,0 +1,21 @@
+# Backend datasets manifest for Smart Civic AI
+# Each entry may include either a 'kaggle_slug' (for Kaggle CLI download) or a direct 'url'.
+# Edit these entries as needed. If using Kaggle slugs, set KAGGLE_USERNAME and KAGGLE_KEY in your environment.
+
+- name: Road Damage Dataset (RDD)
+  kaggle_slug: ""
+  url: "https://github.com/sekilab/RoadDamageDetector"
+  type: image
+  notes: "Road surface photos with annotations (potholes, cracks). Use for Road Damage classification/detection."
+
+- name: CFPB Consumer Complaints
+  kaggle_slug: ""
+  url: "https://www.consumerfinance.gov/data-research/consumer-complaints/"
+  type: text
+  notes: "Large consumer complaint corpus — use for text classification and intent extraction. Download CSV from official portal or a Kaggle mirror."
+
+- name: Crisis / Urgency corpora (CrisisLex / CrisisMMD)
+  kaggle_slug: ""
+  url: "https://crisislex.org/data-collections.html"
+  type: priority
+  notes: "Disaster/crisis message corpora labeled for informativeness/urgency. Useful as a proxy for complaint prioritization."

@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "id": "road_damage-01",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "Potholes near the school gate are growing bigger after every rain and are dangerous for children.",
+      "complaint_text_kn": "????? ???????? ??????????? ????? ?????????? ???????? ??????? ????????? ???????????? ????? ???????? ??????????.",
+      "location_hint": "Location 1",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-02",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "The road surface in front of the bus stand is broken and causes two-wheeler skids.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #2.",
+      "location_hint": "Location 2",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-03",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "A deep crack has appeared on the main road, and cars slow down sharply near the market.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #3.",
+      "location_hint": "Location 3",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-04",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "The lane near the temple is full of potholes and is difficult to walk on.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #4.",
+      "location_hint": "Location 4",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-05",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "The road is damaged near the hospital entrance and ambulances have trouble passing.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #5.",
+      "location_hint": "Location 5",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-06",
+      "category": "Road Damage",
+      "severity": "high",
+      "priority_label": "critical",
+      "complaint_text": "The potholes on the service road are causing frequent tyre bursts for commuters.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #6.",
+      "location_hint": "Location 6",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-07",
+      "category": "Road Damage",
+      "severity": "medium",
+      "priority_label": "critical",
+      "complaint_text": "The road near the railway crossing is badly broken and needs immediate repair.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #7.",
+      "location_hint": "Location 7",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-08",
+      "category": "Road Damage",
+      "severity": "medium",
+      "priority_label": "critical",
+      "complaint_text": "Several cracks are visible on the outer ring road and the traffic is getting blocked.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #8.",
+      "location_hint": "Location 8",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-09",
+      "category": "Road Damage",
+      "severity": "medium",
+      "priority_label": "critical",
+      "complaint_text": "The road leading to the public library is full of uneven patches and is unsafe.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #9.",
+      "location_hint": "Location 9",
+      "keywords": "road damage,civic,service"
+    },
+    {
+      "id": "road_damage-10",
+      "category": "Road Damage",
+      "severity": "medium",
+      "priority_label": "critical",
+      "complaint_text": "There is a large depression on the road near the market square and it floods during rains.",
+      "complaint_text_kn": "Road Damage ????????? ?????? #10.",
+      "location_hint": "Location 10",
+      "keywords": "road damage,civic,service"
+    }
+  ],
+  "categories": [
+    "road_damage",
+    "garbage",
+    "street_light",
+    "water_leakage",
+    "drainage",
+    "electricity",
+    "tree_fallen",
+    "flood",
+    "illegal_dumping",
+    "traffic_signal"
+  ]
+}

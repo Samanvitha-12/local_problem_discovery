@@ -1,0 +1,21 @@
+complaint_text,category,priority,source,product
+There is a large pothole in front of the school gate and it is causing accidents for cyclists and pedestrians.,road_damage,High,local-civic-complaints,Road maintenance
+Garbage has been piling up near the bus stop for three days and the area smells badly.,garbage,Medium,local-civic-complaints,Solid waste
+The streetlight near the park entrance has been broken for over a week and the road is dark at night.,street_light,Medium,local-civic-complaints,Street lighting
+A water pipe is leaking in front of the apartment block and water is flowing onto the road.,water_leakage,High,local-civic-complaints,Water services
+The storm drain near the market is clogged and sewage is overflowing onto the pavement.,drainage,High,local-civic-complaints,Drainage maintenance
+The electricity pole near the intersection is sparking and the area is unsafe for pedestrians.,electricity,Critical,local-civic-complaints,Power services
+A large tree has fallen across the road after the storm and traffic is blocked.,tree_fallen,Critical,local-civic-complaints,Urban forestry
+Floodwater is entering homes near the low-lying lane after the heavy rain.,flood,Critical,local-civic-complaints,Flood response
+There is illegal dumping of construction debris behind the vacant lot and it attracts pests.,illegal_dumping,High,local-civic-complaints,Illegal dumping
+The traffic signal at the main junction is not working and vehicles are creating chaos during peak hours.,traffic_signal,High,local-civic-complaints,Traffic control
+Potholes on the service road are making it difficult for ambulances to pass safely.,road_damage,High,local-civic-complaints,Road maintenance
+Overflowing bins outside the market are attracting stray dogs and spreading litter.,garbage,Medium,local-civic-complaints,Solid waste
+One of the street lights near the railway crossing has been out for several nights.,street_light,Medium,local-civic-complaints,Street lighting
+Water is leaking from a burst pipe near the school and flooding the footpath.,water_leakage,High,local-civic-complaints,Water services
+The open drain is blocked by plastic waste and water is backing up on the road.,drainage,High,local-civic-complaints,Drainage maintenance
+A transformer box is overheating near the housing colony and residents are worried.,electricity,Critical,local-civic-complaints,Power services
+A tree branch has broken and fallen onto the overhead cable near the roadside.,tree_fallen,High,local-civic-complaints,Urban forestry
+The low-lying market road is flooded even after a short period of rain.,flood,Critical,local-civic-complaints,Flood response
+Construction waste is being dumped along the roadside near the industrial area.,illegal_dumping,High,local-civic-complaints,Illegal dumping
+The traffic signal at the hospital junction changes too slowly and causes congestion.,traffic_signal,Medium,local-civic-complaints,Traffic control

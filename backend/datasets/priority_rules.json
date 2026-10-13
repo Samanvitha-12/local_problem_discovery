@@ -1,0 +1,30 @@
+{
+  "Critical": [
+    {
+      "keywords": ["fire", "explosion", "gas", "electrocution", "sparking", "live wire", "collapsed", "injury", "accident", "emergency"],
+      "categories": ["Electricity", "Road Damage", "Flood", "Drainage"],
+      "reason": "Immediate safety hazard with urgent risk to life or public access"
+    }
+  ],
+  "High": [
+    {
+      "keywords": ["flood", "floodwater", "overflow", "sewage", "unsafe", "blocked", "danger", "hospital", "ambulance", "school"],
+      "categories": ["Flood", "Water Leakage", "Drainage", "Garbage", "Street Light", "Tree Fallen"],
+      "reason": "High impact issue affecting public safety, sanitation, or service access"
+    }
+  ],
+  "Medium": [
+    {
+      "keywords": ["traffic", "junction", "bus", "market", "lane", "footpath", "slippery", "cleanup"],
+      "categories": ["Traffic Signal", "Road Damage", "Garbage", "Drainage", "Water Leakage"],
+      "reason": "Moderate user impact with operational follow-up needed"
+    }
+  ],
+  "Low": [
+    {
+      "keywords": ["minor", "small", "monitor", "maintenance", "waiting", "low", "shallow"],
+      "categories": ["Street Light", "Road Damage", "Drainage"],
+      "reason": "Minor issue that can be scheduled during routine maintenance"
+    }
+  ]
+}

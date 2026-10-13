@@ -1,0 +1,32 @@
+# Dependencies and Python environments
+**/node_modules/
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Local configuration and secrets
+**/.env*
+!**/.env.example
+
+# Runtime data, uploads, and logs
+**/instance/
+**/uploads/
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/*.log
+backend/civic-alert-*/
+backend/.ultralytics/
+backend/runs/
+runs/
+
+# Generated model caches and experiment checkpoints
+backend/models/.hf-cache/
+backend/trained_models/experiments/
+
+# Build output and temporary data
+**/dist/
+**/build/
+temp-complaint-dataset*/
+.DS_Store
