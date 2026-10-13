@@ -25,10 +25,7 @@ class Config:
     # Prefer DATABASE_URI from environment (e.g., mysql+pymysql://user:pass@host/db).
     # The local fallback is the one persistent application database, rather
     # than a second empty file alongside the backend source.
- SQLALCHEMY_DATABASE_URI = (
-    os.environ.get("DATABASE_URI")
-    or f"sqlite:///{DEFAULT_DATABASE_PATH}"
-)
+    SQLALCHEMY_DATABASE_URI = (os.environ.get("DATABASE_URI")or f"sqlite:///{DEFAULT_DATABASE_PATH}")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY', SECRET_KEY)
     JWT_ACCESS_TOKEN_EXPIRES = 86400  # 1 day
