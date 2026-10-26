@@ -183,7 +183,21 @@ def create_app():
         app.add_url_rule('/api/validate-image', endpoint='validate_image_api_public', view_func=validate_image, methods=['POST', 'OPTIONS'])
     if emergency_bp.name not in app.blueprints:
         app.register_blueprint(emergency_bp)
+    app.logger.info("=== REGISTERED ROUTES ===")
+    for rule in app.url_map.iter_rules():
+        app.logger.info(
+            "ROUTE: %s | METHODS: %s",
+            rule.rule,
+            sorted(rule.methods)
+        )
 
+    @app.route('/api/health')
+    def health_check():
+        return jsonify({
+            'status': 'ok',
+            'message': 'Backend running',
+            'yolo': yolo_status()
+        }), 200
     @app.route('/api/health')
     def health_check():
         return jsonify({'status': 'ok', 'message': 'Backend running', 'yolo': yolo_status()}), 200
